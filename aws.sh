@@ -4,9 +4,9 @@ sudo apt-get update
 sudo apt-get -y upgrade
 
 sudo apt-get install python3-venv
-python3 -m /root/ubuntu/home/venv venv
+python3 -m /home/ubuntu/venv venv
 
-cd /root/ubuntu/home
+cd /home/ubuntu/
 
 read -p "GitHub Repository URL: " github_url
 
