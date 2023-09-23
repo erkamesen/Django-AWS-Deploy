@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# chmod +x aws.sh
+
 sudo apt-get update 
 sudo apt-get -y upgrade
 
