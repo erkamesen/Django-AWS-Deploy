@@ -97,7 +97,7 @@ source venv/bin/activate
 - *Clone the repository*
 
 ```
-https://github.com/erkamesen/Django-AWS-Deploy.git
+git clone https://github.com/erkamesen/django_project.git
 ```
 
 
@@ -266,7 +266,7 @@ sudo mkdir /var/log/gunicorn/
 
 # Run server
 
-- *Connect Supervisor
+- *Connect Supervisor*
 ```
 sudo supervisorctl reread
 sudo supervisorctl update
@@ -277,7 +277,7 @@ sudo supervisorctl status
 ![resim](https://github.com/erkamesen/Django-AWS-Deploy/assets/120065120/e5b93976-7f76-4e99-9f72-f9f7f8b17e8a)
 
 - *Check app.sock*
-- 
+
 ```
 cd /home/ubuntu/django_project/
 ```
