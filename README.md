@@ -103,7 +103,7 @@ git clone https://github.com/erkamesen/django_project.git
 
 - *Install Dependencies*
 ```
-pip3 install *r ./<your_project_folder>/requirements.txt
+pip3 install -r ./<your_project_folder>/requirements.txt
 ```
 *or briefly for a simple django application we will make now:*
 ```
@@ -202,9 +202,6 @@ server {
 ![resim](https://github.com/erkamesen/Django-AWS-Deploy/assets/120065120/eaa6cca5-9d43-44c4-9e1a-1f2f4f1c5d7e)
 
 - *Link to /sites-enabled*
-```
-cd /etc/nginx/sites-
-```
 ```
 sudo ln /etc/nginx/sites-available/django.conf /etc/nginx/sites-enabled/
 ```
